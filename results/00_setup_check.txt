@@ -1,0 +1,29 @@
+
+=== 1. Python & packages ===
+Python 3.14.10 on Linux-7.3.5-zen1-1-zen-x86_64-with-glibc2.44
+  oracledb        26.1.0
+  requests        2.34.2
+  python-dotenv   1.2.4
+  pandas          3.1.1
+  numpy           2.5.5
+  scipy           1.18.1
+  statsmodels     0.15.0
+  scikit-learn    1.9.1
+  matplotlib      3.11.2
+  tqdm            4.70.1
+
+=== 2. GitHub API ===
+  token belongs to: Sup3rL
+  core   limit  5000, remaining 4968
+  search limit    30, remaining 30
+  search test  q='is:pr is:public GPT in:title created:2025-01-01..2025-01-01'  total_count=4
+
+=== 3. Oracle connection (python-oracledb thin mode) ===
+  python-oracledb 26.1.0, thin mode = True
+  [FAIL] DatabaseError: ORA-01017: invalid credential or not authorized; logon denied
+Help: https://docs.oracle.com/error-help/db/ora-01017/
+
+=== SUMMARY ===
+  packages   OK
+  github     OK
+  oracle     FAIL
