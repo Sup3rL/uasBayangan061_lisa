@@ -1,6 +1,6 @@
 # Dampak LLM pada Proses Code Review — Replikasi & Modifikasi dengan Oracle AI Vector Search
 
-UAS Software Engineering / AI — **Siti Nurkhalisah (NIM: …)**
+UAS Software Engineering / AI — **Siti Nurkhalisah
 
 ATM (Amati–Tiru–Modifikasi) of Collante et al., *The Impact of Large Language
 Models (LLMs) on Code Review Process*, arXiv:2508.11034, extended with
