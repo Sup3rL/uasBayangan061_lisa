@@ -1,0 +1,13 @@
+# Phase 0-1: config, GitHub API, Oracle
+python-dotenv>=1.0
+requests>=2.31
+oracledb>=2.4          # thin mode, supports the VECTOR data type
+tqdm>=4.66
+
+# Phase 2-6: data handling, statistics, plots
+pandas>=2.2
+numpy>=1.26
+scipy>=1.12
+statsmodels>=0.14
+scikit-learn>=1.4
+matplotlib>=3.8

@@ -1,0 +1,21 @@
+# secrets
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ONNX model files are large (>100 MB) and are downloaded from Oracle, not committed
+models/*
+!models/README.md
+
+# raw GitHub JSON is large; it is published as a compressed archive instead (see data/README.md)
+data/raw/*
+!data/raw/.gitkeep
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
